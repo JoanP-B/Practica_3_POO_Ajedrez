@@ -110,10 +110,10 @@ class AplicacionAjedrezGUI(QMainWindow):
         self.san_text_edit.setFont(QFont("Consolas", 10))
         self.main_layout.addWidget(self.san_text_edit)
         
-        # Ejemplo de partida para pruebas rápidas (tomado del PDF).
+        # Ejemplo de partida para pruebas rápidas.
         self.san_text_edit.setText(
-            "1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. c3 c5 5. Nd2 Nc6 6. Bd3 Bd6 7. Bg3 O-O "
-            "8. Ngf3 Qe7 9. Ne5 Nd7 10. Nxc6 bxc6 11. Bxd6 Qxd6 12. Nf3 a5 13. O-O Ba6 "
+            "1. d4 d5 2. Bf4 Nf6 3. e3 e6 4. c3 c5 5. Nd2 Nc6 6. Bd3 Bd6 7. Bg3 0-0 "
+            "8. Ngf3 Qe7 9. Ne5 Nd7 10. Nxc6 bxc6 11. Bxd6 Qxd6 12. Nf3 a5 13. 0-0 Ba6 "
             "14. Re1 Rfb8 15. Rb1 Bxd3 16. Qxd3 c4 17. Qc2 f5 18. Nd2 Rb5 19. b3 cxb3 "
             "20. axb3 Rab8 21. Qa2 Qc7 22. c4 Rb4 23. cxd5 cxd5 24. Rbc1 Qb6 25. h3 a4 "
             "26. bxa4 Rb2 27. Qa3 Rxd2 28. Qe7 Qd8 29. Qxe6+ Kh8 30. Qxf5 Nf6"
