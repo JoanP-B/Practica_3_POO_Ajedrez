@@ -11,3 +11,6 @@ Este proyecto es una Implementación un programa que valida sintácticamente una
 
 ## IDE Utilizada:
 - Pycharm de Jetbrains
+
+## Video
+https://youtu.be/kDvf72WsSxE
